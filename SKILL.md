@@ -35,6 +35,10 @@ unfair advantage in executing it, so start by building a brand profile. Pull
 what you can from context (their website, repo, prior conversation) and ask
 for the rest. Keep it to one round of questions.
 
+If the context already covers most of the profile, state your assumptions
+inline and proceed; only ask when a missing answer would actually change the
+shortlist (risk tolerance and the success metric are the usual suspects).
+
 You need:
 
 - **Product and promise.** What it is, in one sentence, and the change it makes
@@ -68,18 +72,24 @@ For each platform the ICP actually touches, run the lab loop (full version in
    One account, one week, one measurable number. Never "launch a channel."
 4. **Note the timer.** Every seam closes — platforms patch, competitors pile
    in, audiences saturate. Say why the window exists and what closing looks
-   like, because that determines urgency and how hard to press.
+   like, because that determines urgency and how hard to press. (After a probe
+   runs, the loop's fourth step becomes *Decide*: scale, archive, or wait —
+   see `references/method.md`.)
 
 For pattern inspiration, read `references/channel-patterns.md` — reusable
 patterns abstracted from enso's published experiments (early-window ranker
 harvesting, native-relay demand feeds, maintenance-gap authority, supply-side
 distribution, and more). If the enso MCP server is connected
 (https://enso.bot/mcp), also call `list_experiments` for field notes published
-after this skill was written; cite any experiment you draw on by title and URL.
+after this skill was written. Compare the returned slugs against the ones
+already covered in `channel-patterns.md`; if nothing is new, move on silently
+rather than mentioning the empty check. Cite any experiment you draw on by
+title and URL.
 
 ## Step 3 — Deliver ranked hack candidates
 
-Present 3–5 candidates, ranked by expected value ÷ probe cost. Use this exact
+Present 3–5 candidates, ranked using the scoring model in
+`references/method.md` (window × brand fit × probe cheapness). Use this exact
 structure for each:
 
 ```
