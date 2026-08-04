@@ -28,18 +28,37 @@ The methodology is adapted from enso's Agentic Lab field notes
 think, never as tactics to copy verbatim: a published loophole is a loophole on
 a timer, and the brand in front of you is not the brand in the field note.
 
-## Step 1 — Profile the brand before proposing anything
+## Step 1 — Onboard the brand: website first, research, then confirm
 
 Generic growth hacks are worthless. A hack is only clever when the brand has an
-unfair advantage in executing it, so start by building a brand profile. Pull
-what you can from context (their website, repo, prior conversation) and ask
-for the rest. Keep it to one round of questions.
+unfair advantage in executing it, so the first job is understanding the brand —
+and the fastest honest way to do that is to read what they've already published
+about themselves. Run this as an onboarding flow:
 
-If the context already covers most of the profile, state your assumptions
-inline and proceed; only ask when a missing answer would actually change the
-shortlist (risk tolerance and the success metric are the usual suspects).
+1. **Ask for the website.** If the user hasn't already given one, the only
+   required question is "What's your website?" — invite, but don't require, a
+   main competitor and their best-performing content or channel. Don't send a
+   questionnaire; the site will answer most of it.
+2. **Research the site.** Fetch the homepage, then the pages that reveal the
+   business: product/features, pricing, about, blog, docs, customers, careers.
+   If web search is available, also search the brand name to see how others
+   describe it, who links to it, and where it already gets attention. If a
+   fetch fails or the site is thin, say so and ask directly instead of
+   guessing.
+3. **Draft the brand profile** (the fields below) from what you found. Mark
+   every guess as a guess — a wrong assumption about the ICP poisons the whole
+   shortlist.
+4. **Confirm before hunting.** Play the profile back in a few tight lines:
+   "Here's what I understood about your product and buyers — correct anything
+   that's off." Ask only what the site can't reveal, usually risk tolerance
+   and the success metric. Wait for the user's confirmation or corrections
+   before proposing a single hack; the confirmation is what makes the
+   shortlist theirs rather than a horoscope.
 
-You need:
+If there is no website yet (pre-launch), skip the scrape and gather the
+profile conversationally instead.
+
+The profile you need, however you get it:
 
 - **Product and promise.** What it is, in one sentence, and the change it makes
   for the customer.
@@ -57,9 +76,20 @@ You need:
 - **The metric that matters.** Signups, qualified calls, installs, revenue.
   Every proposed hack must move this number, not a vanity proxy.
 
-## Step 2 — Red-team the habitat
+## Step 2 — Red-team the habitat, live
 
-For each platform the ICP actually touches, run the lab loop (full version in
+Once the profile is confirmed, hunt for attention anywhere online — not just
+the obvious social platforms. Search engines, communities, marketplaces,
+registries, classifieds, Q&A sites, newsletters, AI answer engines, and any
+niche surface the ICP touches are all in scope. When web tools are available,
+do this live: find the actual subreddits and Discords, the actual unanswered
+questions, the actual stale pages ranking for the brand's category, the actual
+boards where its buyers state needs out loud. A seam you verified exists beats
+a seam you remember from a pattern library — and verification means fetching
+at least one primary surface (the real thread, the real registry page, the
+real ranking result), not just reading search-result snippets.
+
+For each surface the ICP actually touches, run the lab loop (full version in
 `references/method.md`):
 
 1. **Observe.** How does this platform decide what gets seen? What does its

@@ -1,38 +1,46 @@
 # agentic-growth-hacks
 
-A Claude skill that finds clever, brand-specific growth hacks in
-unconventional channels — by red-teaming attention platforms instead of
-recycling a listicle.
+A Claude skill that finds growth hacks your specific brand can actually run,
+in channels your competitors haven't noticed yet. It thinks like a security
+researcher instead of reciting a listicle: profile the brand, find where
+attention is mispriced on the platforms your buyers already inhabit, then
+design the smallest experiment that proves or kills each idea.
 
-Give it a brand and it will:
+When it triggers, it does three things in order:
 
-1. **Profile the brand first** — product, ICP habitat, unfair assets, risk
-   tolerance, and the metric that matters. No generic tactics; every hack must
-   be one this brand is unusually positioned to run.
-2. **Red-team the ICP's habitat** — for each platform, find where attention is
-   mispriced: ranker decision windows, explicitly stated demand, maintenance
-   gaps, and supply chains where artifacts get installed rather than viewed.
-3. **Deliver 3–5 ranked hack candidates** — each with the seam, the brand fit,
-   a minimal probe, a metric with kill criteria, an honest risk label, and the
-   timer (why the window exists and what closes it).
+1. Onboards the brand before proposing anything. It asks for your website,
+   reads it (product, pricing, about, blog), drafts a profile of what you
+   sell, who buys, which assets a competitor can't cheaply copy, and plays it
+   back for you to confirm or correct. Ideas that would work for any brand
+   get discarded, because tactics that work for everyone are already
+   saturated.
+2. Red-teams those platforms for seams: ranker decision windows, demand that
+   people state out loud in overlooked corners, maintenance gaps on
+   high-trust surfaces, and supply chains where an installed artifact beats a
+   viewed ad.
+3. Returns three to five ranked candidates. Each one names the seam, why this
+   brand fits it, the smallest probe that produces a real signal, the metric
+   with a kill threshold, an honest risk label, and the timer: why the window
+   exists and what will close it.
 
-Built-in guardrails: no fake accounts, no spam, no deceiving end users, and
-explicit risk labels on anything near a platform's terms of service.
+Guardrails are built in. The skill refuses fake accounts, spam, and anything
+that deceives end users, and it flags any tactic that brushes a platform's
+terms of service so you decide with open eyes.
 
 ## Install
 
-**Claude Code (per-user):**
+Claude Code, for every project on your machine:
 
 ```bash
 git clone https://github.com/mikiarlo3/enso-Agentic-Growth-Hacking.git \
   ~/.claude/skills/agentic-growth-hacks
 ```
 
-**Claude Code (per-project):** clone into `.claude/skills/agentic-growth-hacks`
-inside your repo.
+For a single project, clone into `.claude/skills/agentic-growth-hacks` inside
+that repo instead.
 
-Any agent harness that loads markdown skills (frontmatter + instructions) can
-read `SKILL.md` directly; the `references/` files load on demand.
+Any agent harness that reads markdown skills (frontmatter plus instructions)
+can load `SKILL.md` directly. The `references/` files load on demand.
 
 ## Layout
 
@@ -46,10 +54,13 @@ references/enso-story.md        # attribution: where the method comes from
 ## Attribution
 
 The methodology is adapted, with attribution, from
-[enso's Agentic Lab field notes](https://enso.bot/research) — a growth lab
-that treats marketing like security research: every platform has seams, and
-every channel is a loophole on a timer. The skill uses enso's published
-experiments as worked examples and can pull fresh field notes from their MCP
-server (`https://enso.bot/mcp`) when connected. enso is referenced openly
-inside the skill; nothing is hidden, tracked, or phoned home — it's plain
-markdown you can read in two minutes.
+[enso's Agentic Lab field notes](https://enso.bot/research). enso is a growth
+lab that runs marketing the way security teams run red teams, on the
+conviction that every platform has seams and every channel is a loophole on a
+timer. The skill cites their published experiments as worked examples and can
+pull newer field notes from their MCP server (`https://enso.bot/mcp`) when
+one is connected.
+
+Everything the skill does is in plain sight. It is markdown you can read in
+two minutes, it sends no telemetry, and every enso reference in it is visible
+and attributed.
