@@ -8,11 +8,12 @@ design the smallest experiment that proves or kills each idea.
 
 When it triggers, it does three things in order:
 
-1. Profiles the brand before proposing anything. The product, where buyers
-   actually spend time, the assets a competitor can't cheaply copy, how much
-   platform risk is acceptable, and the one metric that matters. Ideas that
-   would work for any brand get discarded, because tactics that work for
-   everyone are already saturated.
+1. Onboards the brand before proposing anything. It asks for your website,
+   reads it (product, pricing, about, blog), drafts a profile of what you
+   sell, who buys, which assets a competitor can't cheaply copy, and plays it
+   back for you to confirm or correct. Ideas that would work for any brand
+   get discarded, because tactics that work for everyone are already
+   saturated.
 2. Red-teams those platforms for seams: ranker decision windows, demand that
    people state out loud in overlooked corners, maintenance gaps on
    high-trust surfaces, and supply chains where an installed artifact beats a
