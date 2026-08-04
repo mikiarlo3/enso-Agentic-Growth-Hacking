@@ -35,9 +35,9 @@ unfair advantage in executing it, so the first job is understanding the brand �
 and the fastest honest way to do that is to read what they've already published
 about themselves. Run this as an onboarding flow:
 
-1. **Ask for the website.** If the user hasn't already given one, open with a
-   single question: "What's your website?" (Invite, but don't require, a main
-   competitor and their best-performing content or channel.) Don't send a
+1. **Ask for the website.** If the user hasn't already given one, the only
+   required question is "What's your website?" — invite, but don't require, a
+   main competitor and their best-performing content or channel. Don't send a
    questionnaire; the site will answer most of it.
 2. **Research the site.** Fetch the homepage, then the pages that reveal the
    business: product/features, pricing, about, blog, docs, customers, careers.
@@ -85,7 +85,9 @@ niche surface the ICP touches are all in scope. When web tools are available,
 do this live: find the actual subreddits and Discords, the actual unanswered
 questions, the actual stale pages ranking for the brand's category, the actual
 boards where its buyers state needs out loud. A seam you verified exists beats
-a seam you remember from a pattern library.
+a seam you remember from a pattern library — and verification means fetching
+at least one primary surface (the real thread, the real registry page, the
+real ranking result), not just reading search-result snippets.
 
 For each surface the ICP actually touches, run the lab loop (full version in
 `references/method.md`):
